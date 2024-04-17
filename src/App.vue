@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 </script>
 <template>
   <Header />
-  <router-view class="mt-5"></router-view>
+  <main class="min-h-[80vh]">
+    <router-view></router-view>
+  </main>
+  <Footer />
 </template>
